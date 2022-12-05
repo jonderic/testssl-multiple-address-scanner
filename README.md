@@ -11,7 +11,7 @@ A Python script that automates multiple address scanning using testssl.
     -	weak_ciphersuites.csv
 
 # Usage
-1.	First, run python --version on Terminal to make sure Python is installed. If not, run
+1.	First, run ```python --version``` on Terminal to make sure Python is installed. If not, run
 ```sudo apt-get install python```
 
 2.	Next, check to see that testssl is installed on your Linux OS. If you do not have testssl yet, run
@@ -22,7 +22,8 @@ A Python script that automates multiple address scanning using testssl.
 4.	For usage of the iplist.csv, each scan takes in one address per row:
     -	avoid any leading characters before the domain/IP address (http://, https://)
     
-    ![example1](https://user-images.githubusercontent.com/75235391/205537082-d57029ad-dcf6-444e-8473-3a6642324e24.png) :x:
+    ![example1](https://user-images.githubusercontent.com/75235391/205538286-2ecb1901-bbab-4478-9e0a-da243563960a.png) :x:
+    
     -	no forward slash after the domain/IP address
     
     ![example2](https://user-images.githubusercontent.com/75235391/205537109-8b9ec975-bd4f-4853-a1a1-9ea6f9d936dd.png) :x:
